@@ -1,6 +1,6 @@
 body{
     margin: 0;
- 
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -13,4 +13,21 @@ header{
     width: 20%;
     padding-top: 2%;
     margin-left: 5px;
+}
+
+main{
+    margin-left: 5px;
+}
+
+.text{
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.blue-text{
+    color:rgb(0, 247, 247);
+}
+
+#data, .images-caption{
+    font-size: 13px;
 }
