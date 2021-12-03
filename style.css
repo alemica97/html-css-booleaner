@@ -31,3 +31,12 @@ main{
 #data, .images-caption{
     font-size: 13px;
 }
+
+.highlighted-text{
+    background-color: yellow;
+}
+
+.paragraph{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
