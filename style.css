@@ -28,6 +28,7 @@ main{
 .text{
     margin-bottom: 20px;
     color: grey;
+    font-size: 18px;
 }
 
 .blue-text{
@@ -65,4 +66,20 @@ thead{
 
 .long{
     width: 50%;
+}
+
+.footer-images{
+    width: 312px;
+    height: 208px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.images-text{
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    padding: 10px;
+    top: 0;
+    left: 0;
 }
