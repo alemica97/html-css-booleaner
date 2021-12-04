@@ -10,16 +10,15 @@ header{
 }
 
 .logo{
-    width: 15%;
+    width: 18%;
     padding-top: 2%;
     padding-bottom: 1%;
-    margin-left: 10%;
+    text-align: justify;
 }
 
-main, footer{
+main, footer, .logo-container{
     width: 1050px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin:auto;
 }
 
 .text{
