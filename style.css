@@ -1,5 +1,8 @@
+/* Reset */
 body{
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
     font-family: 'Merriweather', sans-serif;
 }
 
@@ -12,16 +15,18 @@ header{
     width: 100%;
     background: #4EA0FF url(img/pattern.png);
     background-size: 30%;
+    padding-top: 3%;
 }
 
 .logo-container{
     width: 1050px;
 }
 
+h1{
+    margin-bottom: 0px;
+}
 .logo{
     width: 15%;
-    padding-top: 2%;
-    padding-bottom: 1%;
     margin-left: 5px;
 }
 
@@ -53,6 +58,10 @@ main{
     margin-bottom: 20px;
 }
 
+ul{
+    padding-left: 1;
+}
+
 table{
     border-collapse: collapse;
     width: 100%;
@@ -73,18 +82,21 @@ thead{
     width: 50%;
 }
 
-.footer-images{
+.footer-image-graph, .footer-image-monitor{
     width: 312px;
     height: 208px;
     margin-top: 20px;
-    position: relative;
+}
+
+.footer-image-monitor{
+    background-image: url(img/monitor.jpg);
+}
+
+.footer-image-graph{
+    background-image: url(img/graph.jpg);
 }
 
 .images-text{
     color: white;
-    position: absolute;
     font-size: 20px;
-    padding: 10px;
-    top: 0;
-    left: 0;
 }
